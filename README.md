@@ -2,8 +2,6 @@
 
 Structural node embeddings for temporal graphs, using SirGN with arbitrary-order temporal aggregation.
 
-Each iteration clusters nodes by their current representation. It then rebuilds each node's representation from its neighbors' soft cluster memberships over time. Interactions are weighted by an exponential time decay, and aggregation can go up to any order.
-
 ## Requirements
 
 - Python 3
